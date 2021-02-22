@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>BetterTechnologies.SimpleSql</AssemblyName>
+    <RootNamespace>BetterTechnologies.SimpleSql</RootNamespace>
+    <Version>0.9.0</Version>
+    <Authors>Brandon Moore</Authors>
+    <Company>Better Technologies LLC</Company>
+    <Description>SQL Access Simplified</Description>
+    <PackageProjectUrl>https://github.com/Better-Technologies-LLC/SimpleSql</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Better-Technologies-LLC/SimpleSql</RepositoryUrl>
+    <PackageTags>sql orm dapper</PackageTags>
+    <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fasterflect.Netstandard" Version="1.0.9" />
+    <PackageReference Include="FastMember.Signed" Version="1.5.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="2.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
